@@ -1,0 +1,66 @@
+/* CreatePost.css (or your preferred file name) */
+
+/* Styles for the form container */
+.max-w-2xl {
+    max-width: 36rem;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the form title */
+  .text-3xl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #333;
+  }
+  
+  /* Styles for form labels */
+  .block {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  /* Styles for form input and textarea */
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #d2d6dc;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Styles for the submit button */
+  button {
+    background-color: #1e40af;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the submit button */
+  button:hover {
+    background-color: #1c3a8e;
+  }
+  
+  /* Additional styling for form container */
+  .form-container {
+    margin-top: 2rem;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .max-w-2xl {
+      max-width: 100%;
+    }
+  }
+  
